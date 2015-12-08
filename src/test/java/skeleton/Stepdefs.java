@@ -26,6 +26,7 @@ public class Stepdefs {
         element.sendKeys(query);
         element.submit();
         System.out.println(getWebDriver().getTitle());
+        System.out.println("hi");
     }
 
     @Then("^I should see \"([^\"]*)\" on the first link$")
